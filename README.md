@@ -1,2 +1,16 @@
-# Projet-site-HTML-CSS
-Ce dépôt contient les codes, d'un site internet de prestation de service dans le domaine de la musique.
+# New Wave
+
+Contexte : Pour des prestations de service d'ingénieur du son j'avais besoin d'avoir un site vitrine ou j'expose mes tarifs.
+
+L'index :
+
+![f1.PNG](f1.PNG)
+
+Les tarifs :
+
+![f2.PNG](f2.PNG)
+
+Les réseaux sociaux pour me contacter :
+
+![f3.PNG](f3.PNG)
+
