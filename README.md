@@ -14,3 +14,6 @@ Les réseaux sociaux pour me contacter :
 
 ![f3.PNG](f3.PNG)
 
+Au format mobile :
+
+![f4.PNG](f4.PNG)
