@@ -2,7 +2,22 @@
 
 Contexte : Pour des prestations de service d'ingénieur du son j'avais besoin d'avoir un site vitrine ou j'expose mes tarifs.
 
-L'index :
+Cas d'utilisation :
+
+```plantuml
+@startuml Colocataire
+left to right direction
+:Visiteur:
+package Site{
+    Visiteur--(Naviguer sur le site)
+    Visiteur--(Consulter les tarifs)
+    Visiteur--(Prendre contact)
+    
+}
+@enduml
+```
+
+index :
 
 ![f1.PNG](f1.PNG)
 
