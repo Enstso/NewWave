@@ -41,8 +41,6 @@ nav .onglets
     font-family: 'Josefin Sans', sans-serif;
 }
 
-
-
 .onglets ul li
 {
     list-style: none;
@@ -111,14 +109,10 @@ header h4
     border-bottom: 1px;
 }
 
-
-    
 /*Fin Header*/
 
 /*mix mastering formule*/
-.formule.right{
-    display: flex;
-}
+
 .main
 {
     
@@ -126,48 +120,14 @@ header h4
     flex-direction: column;  
     
 }
-.main1 .contenue
-{
-    
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
-   margin-bottom: 50px;
 
-}
-.main1 .contenue .photo {
-    
-    display: flex;
-    
-align-items: center;
-    justify-content: space-between;
-    height: 300px;
-}
-
-.main .content .mixage
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px ;
-}
-
-
-
-.main .content .mastering
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px ;
-}
 
 .content
 {
     margin-top: 40px;
 }
 
-.main .content .formule
+.element
 {
     display: flex;
     flex-wrap: wrap;
@@ -175,31 +135,13 @@ align-items: center;
     margin-bottom: 20px ;
 }
 
-.main .content .mixage .left 
+.right
 {
-    flex: 0 0 30%;
-    padding: 20px;
-    color: white;
-    background-color: black;
-    
-}
-
-.main .content .mixage.right 
-
-{
-    flex: 0 0 70%;
-}
-
-.main .content .mixage .right img
-{
-    height: 300px;
-    width: 100%;
-    margin-top: 5px;
+    flex: 0 0 60%;
 }
 
 
-
-.main .content .mastering .left 
+.left 
 {
     flex: 0 0 30%;
     padding: 20px;
@@ -207,62 +149,23 @@ align-items: center;
     background-color: black;
 }
 
-.main .content .mastering.right
-{
-    flex: 0 0 70%;
-}
-
-.main .content .mastering .right img
+img
 {
     height: 300px;
     width: 100%;
     margin-top: 5px;
 }
-
-.main .content .formule .left 
-{
-    flex: 0 0 30%;
-    padding: 20px;
-    color: white;
-    background-color: black;
-}
-
-.main .content .formule.right
-{
-    flex: 0 0 70%;
-}
-
-.main .content .formule .right img
-{
-    height: 300px;
-    width: 100%;
-    margin-top: 5px;
-}
-.color
+.parent
 {
     background-color: #ebeded;
+    margin: auto;
 }
  a 
 {   
 text-decoration: none;
 color: black;
 }
-.space
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-    margin-bottom:35px;
-    
-}
 
-
-.lien
-{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 50px;
-    
-}
 /*fin mix mastering formule*/
 
 /*Footer*/
@@ -296,52 +199,21 @@ footer a
             margin-left: 0px;
             margin-bottom: 20px;
         }
-        .main1 .contenue {
-            display: block;
-        }
-        .main1 .contenue .photo
-        {
-            height:200px;
-            width: 100%;
-            margin-top: -0px;
-            flex-direction: column;
-        }
-        .main .content .mixage {
+        .main .content .element {
             margin: 10px;
         }
-        .main .content .mastering {
-            margin: 10px;
-        }
-        .main .content .formule {
-            margin: 10px;
-        }
-        .main .content .mixage .right img{
-            height:200px;
-            width: 100%;
-            margin-top: -0px;
-        }
-        .main .content .mastering .right img{
-            height:200px;
-            width: 100%;
-            margin-top: -0px;
-        }
-        .main .content .formule .right img{
-            height:200px;
-            width: 100%;
-            margin-top: -0px;
-        }
-        .main .content .mixage{
-            display: block;
-        }
-
-        .main .content .mastering{
-            display: block;
-        }
-        .main .content .formule{
-            display: block;
-        }
-
         
+        .main .content .element .right img{
+            height:200px;
+            width: 100%;
+            margin-top: -0px;
+        }
+
+        .main .content .element{
+            display: block;
+        }
+        
+
         footer{
 
             padding: 30px;
